@@ -16,7 +16,9 @@ Esta aplicación permite llevar un control de las películas vistas y almacenar 
 
 ## Refactorización aplicada
 
-En una de las clases se ha realizado una mejora sustancial del código mediante:
+Se ha realizado una mejora sustancial del código en **todas las clases del proyecto**, excepto en la clase `Pelicula` y en la interfaz principal, ya que estas solo contienen atributos y métodos básicos bien definidos desde el inicio.
+
+Las mejoras aplicadas incluyen:
 
 - Extracción de métodos con nombres descriptivos para mejorar la legibilidad.
 - Eliminación de código duplicado.
