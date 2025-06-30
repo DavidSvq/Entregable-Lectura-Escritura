@@ -23,7 +23,9 @@ En una de las clases se ha realizado una mejora sustancial del código mediante:
 - Reducción de parámetros innecesarios.
 - Reemplazo de variables intermedias redundantes.
 - Reestructuración del flujo de control para mayor claridad y mantenimiento.
+- Eliminación de comentarios innecesarios (por ejemplo, descripciones de condicionales o bucles), sustituidos por nombres claros y autoexplicativos en métodos y variables.
+- Sustitución de estructuras condicionales `switch` por un `Map` de acciones, aprovechando la interfaz funcional y sus implementaciones ya existentes.
   
 Aunque la refactorización aplicada se nota claramente, fue posible realizarla de forma limpia y eficaz gracias a que el diseño previo ya seguía una estructura clara. Por ejemplo, la eliminación del `switch` fue directa, ya que la interfaz funcional y las clases asociadas estaban previamente creadas, lo que facilitó su integración posterior en un `Map` de acciones.
   
-  
+> 📝 Nota: El código refactorizado está escrito en inglés, mientras que el código original se mantiene en español, tanto en los nombres como en los comentarios. Esto permite comparar directamente ambos enfoques dentro del mismo proyecto.
